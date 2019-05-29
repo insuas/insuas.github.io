@@ -7,7 +7,7 @@ createCanvas(600, 600);
 
 
 function draw() {
-  background(51);
+  background(255);
   rectMode(CENTER);
   translate(width / 2, height / 2);
   translate(p5.Vector.fromAngle(millis() / 1000, 275));
